@@ -38,6 +38,5 @@ public class RocksEnv extends Env {
    * by C++.</p>
    */
   @Override
-  protected final void disposeInternal(final long handle) {
-  }
+  protected native final void disposeInternal(final long handle);
 }
